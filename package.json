@@ -1,0 +1,14 @@
+{
+  "name": "strato-token-trading-mockup",
+  "version": "0.1.0",
+  "private": true,
+  "description": "STRATO token trading UX mockup and testnet engineering handoff",
+  "scripts": {
+    "dev": "node scripts/serve.cjs",
+    "test": "node --test tests/*.test.cjs",
+    "export": "python3 export.py"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
